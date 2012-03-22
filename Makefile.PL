@@ -7,7 +7,7 @@ WriteMakefile(
     'ABSTRACT'  => "A simple module for file downloading",
     'AUTHOR'    => 'Byrne Reese <byrne@majordojo.com>',
     'DISTNAME'  => 'File-Download',
-    'LICENSE'   => 'perl',
+#    'LICENSE'   => 'perl',
     'LIBS'	=> [''],   # e.g., '-lm' 
     'DEFINE'	=> '',     # e.g., '-DHAVE_SOMETHING' 
     'INC'	=> '',     # e.g., '-I/usr/include/other' 

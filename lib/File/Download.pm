@@ -4,7 +4,7 @@ package File::Download;
 use vars qw($VERSION @EXPORT_OK %EXPORT_TAGS $DEBUG);
 
 $DEBUG = 0;
-$VERSION = '0.2';
+$VERSION = '0.3';
 
 use base qw(Class::Accessor);
 File::Download->mk_accessors(qw(mode overwrite outfile flength size status user_agent));
