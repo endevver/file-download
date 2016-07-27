@@ -12,8 +12,11 @@ To install this module, please run:
 	make test
 	make install
 	
-or move it into your cpan/build directory and type
-	cpan .
+or
+	manually create a File-Download subdirectory within your cpan/build directory
+	move or extract all files from this repository into the new directory
+	navigate to that directory at a command/shell prompt and type
+		cpan .
 
 For more information on the module, please see the POD documentation
 inside Download.pm. ("perldoc File::Download", once it is installed.)
